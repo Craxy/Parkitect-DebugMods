@@ -1,0 +1,7 @@
+{
+    "BaseDir": ".\\src\\DebugTestMod\\",
+    "Name": "Debug Test Mod",
+    "Project": "DebugTestMod.csproj",
+    "IsDevelopment": true,
+    "Priority": 0
+}
