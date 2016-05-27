@@ -1,6 +1,6 @@
 # Debugging Parkitect Mods
 
-The easiest way to debug a mod is to extensively use logging via `UnityEngine.Debug.Log(...)` or similar methods. How to use logging is described [here](https://parkitectnexus.com/modding-wiki/Debugging).
+The easiest way to debug a mod is to extensively use logging via `UnityEngine.Debug.Log(...)` or similar methods. How to use logging is described [here](./Logging.md).
 
 Though for complex issues logging is quite pitiful and no replacement for a real debugger. Parkitect uses the Unity Engine, which contains a debugging system. Although Parkitect still needs to be prepared for debugging by putting into Development mode.
 <br/>
@@ -25,8 +25,9 @@ Parkitect must be put into Development mode to start its debugging server.
 First you need a Unity installation with the exact Unity engine version that is used in Parkitect. This version number can be found in the first line of `/Parkitect/Parkitect_Data/output_log.txt`.  
 All Unity installers for final versions can be found in the [Unity Download Archive](https://unity3d.com/get-unity/download/archive). Final versions are indicated by an **`f`** in the version number, like `5.3.4.`**`f`**`.1`. Additional there are [patch releases](https://unity3d.com/unity/qa/patch-releases) for Unity, indicated by **`p`**, like in `5.3.4.`**`p`**`.1`.  
 In case of Parkitect Alpha 1a the first line of `output_log.txt` reads 
-
+```
     Initialize engine version: 5.3.4p4 (43a3882ae25c)
+```
 and therefore you need the installer for [Unity 5.3.4p4](https://unity3d.com/unity/qa/patch-releases/5.3.4p4).
 
 ### Put Parkitect into Development Mode
