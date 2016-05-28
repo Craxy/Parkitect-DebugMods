@@ -1,1 +1,1 @@
-Parkitect-DebugMods
+A simple example mod to demonstrate how to debug mods for Parkitect. The guide on how to debug is available in the [wiki](./wiki).
