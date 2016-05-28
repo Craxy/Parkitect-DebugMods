@@ -94,5 +94,5 @@ Instead of manually calling this command after every build this can be automated
 ### Debug your Parkitect Mod
 Now you can start Parkitect in Developer Mode (via Parkitect_debug.exe) (make sure your mod is enabled in the Parkitect Nexus Client, the `build.dat` points to your debug build and the `mdb` file exists). In Visual Studio select in the Menu "Debug" -> "Attach Unity Debugger" and then Parkitect's Unity instance. There's just one instance to select if you debug locally and only have one instance of Parkitect (and no other unity game with a debugger) open.
 
-When the game reaches a break point Parkitect will break so you can debug through your mod.
-![Parkitect folder structure](./img/HitBreakPointInVisualStudio.png)
+When the game reaches a break point Parkitect will break so you can debug through your mod.  
+![Hit breakpoint in VS](./img/HitBreakPointInVisualStudio.png)

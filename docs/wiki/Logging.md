@@ -15,8 +15,8 @@ Isn't compatible with Parkitect Alpha 1
 -->
 
 ## ModTools.Debug
-[ModTools.Debug](https://github.com/parkitectLab/modTools/blob/master/ModTools/Debug.cs) provides a wrapper around `UnityEnginge.Debug.Log` but can also put your log messages into the Parkitect notification bar.
-![Debug Console](./img/ModToolsLogToNotificationBar.png)  
+[ModTools.Debug](https://github.com/parkitectLab/modTools/blob/master/ModTools/Debug.cs) provides a wrapper around `UnityEnginge.Debug.Log` but can also put your log messages into the Parkitect notification bar.  
+![Log message in Notification bar](./img/ModToolsLogToNotificationBar.png)  
 You can switch the output by setting `consoleOnly`: if `false` it displays messages in the notification bar, else (`false`) it uses `UnityEngine.Debug.Log` and therefore outputs the debug messages to `Parkitect\Parkitect_Data\output_log.txt`.
 
 The available logging command are:
