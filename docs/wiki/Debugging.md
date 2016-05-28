@@ -1,5 +1,11 @@
-# Debugging Parkitect Mods
+- [Introduction](#introduction)
+- [Before you start](#before-you-start)
+- [Prepare Parkitect](#prepare-parkitect)
+- [Debugging in Visual Studio](#debugging-in-visual-studio)
 
+---
+
+## Introduction
 The easiest way to debug a mod is to extensively use logging via `UnityEngine.Debug.Log(...)` or similar methods. How to use logging is described [here](./Logging).
 
 Though for complex issues logging is quite pitiful and no replacement for a real debugger. Parkitect uses the Unity Engine, which contains a debugging system. Although Parkitect still needs to be prepared for debugging by putting into Development mode.

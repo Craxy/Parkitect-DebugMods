@@ -1,3 +1,3 @@
 # Debugging Parkitect Mods
-* **[Logging](./Logging)**
-* **[Debugging](./Debugging)**
+* [Logging](./Logging)
+* [Debugging](./Debugging)
