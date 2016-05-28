@@ -37,7 +37,7 @@ Now open a command prompt in that folder and execute `mklink /J Parkitect_debug_
 
 If you now start Parkitect via `Parkitect_debug.exe` the bottom right corner should read "Development Build".  
 ![Parkitect Development Build](./img/ParkitectDevelopmentBuild.png)  
-Additional there might appear a "Development Console" with some errors in the lower left. In the case of the image above Parkitect failed to initialize its Steam features, Since we launched Parkitect without using Steam that's ok -- just ignore the message.
+Additional there might appear a "Development Console" with some errors in the lower left. In the case of the image above Parkitect failed to initialize its Steam features. Since we launched Parkitect without using Steam that's ok -- just ignore the message.
 
 ### Make Parkitect listen to debug sessions
 Next create a file called `PlayerConnectionConfigFile` (no extension!) in the folder `/Parkitect/Parkitect_debug_Data` with the content `listen 12345 1 0` or download  [this PlayerConnectionConfigFile file](./data/PlayerConnectionConfigFile). On future launches of Parkitect via `Parkitect_debug.exe` the Parkitects mono debugger starts listen to debug sessions.
