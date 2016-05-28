@@ -5,7 +5,7 @@ The Unity way of logging is via [`UnityEngine.Debug.Log(...)`](https://docs.unit
 The log file's created new every time Parkitect starts. New messages are added at the end of the file when they are logged. That means you must reload the file in your text editor to see new logs. Some text editors can auto-refresh a file when it changed (e.g. Notepad++ with a "Document monitor" plugin).  
 
 
-Besides opening the log file in a text editor, a debug console with the log messages and exceptions can be brought up in Parkitect by hitting `Ctrl+Alt+D`. However that window only displays messages that are logged while it's open.
+Besides opening the log file in a text editor, a debug console with the log messages and exceptions can be brought up in Parkitect by hitting `Ctrl+Alt+D`. However that window only displays messages that are logged while it's open.  
 ![Debug Console](./img/DebugConsole.png)
 
 <!--
